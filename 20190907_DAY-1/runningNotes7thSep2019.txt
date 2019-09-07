@@ -10,7 +10,6 @@ Current Role :
 Why are your learning this course (CDA-A) : 
 
 
-
 Agenda : 
 
 1. Walkthrough of AWS Website
@@ -29,5 +28,45 @@ Agenda :
 
 
 VCS / SCM : Github.com  
+
+
+
+1. Type of Machine : Laptop/Desktop (Admin|Yes)
+2. Type of Operating System : Windows-10 (32bit,64bit) | MacOS| Linux
+
+Types of OS : GUI + CUI(Windows or MacOS) : 
+
+1. File   : GUI + CUI + Script
+2. Folder : GUI + CUI + Script
+
+AWS Cloud : GUI + CUI + Script
+
+Windows or MacOS : IE, Mozilla, Chrome : 
+
+Safari : https://aws.amazon.com 
+
+Types of AWS Accounts :
+
+IAM User :
+
+https://us-east-1.signin.aws.amazon.com/oauth?response_type=code&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fnc2%3Dh_ct%26region%3Dus-east-1%26src%3Dheader-signin%26state%3DhashArgs%2523%26isauthcode%3Dtrue&forceMobileLayout=0&forceMobileApp=0
+
+BMW : https://aws.amazon.com 
+
+Root User/Super User : https://aws.amazon.com 
+
+Username : firstname.lastname@gmail.com 
+PassWord : ********
+
+https://bmw-kk.signin.aws.amazon.com/console
+
+BMW Engineering : IAM (User keshavkummari(devops),)
+
+https://bmw.aws.amazon.com 
+
+Account ID/Name : bmw 
+UserName : keshavkummari 
+PassWord : *********
+
 
 
