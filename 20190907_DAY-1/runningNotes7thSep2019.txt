@@ -1,0 +1,33 @@
+
+Name : 
+
+Domain : IT or NON-IT
+
+Experience : 
+
+Current Role : 
+
+Why are your learning this course (CDA-A) : 
+
+
+
+Agenda : 
+
+1. Walkthrough of AWS Website
+
+2. Understanding of AWS Training And Certifications
+
+3. Course Introduction
+
+4. Account Creation with AWS
+
+5. Understanding of AWS Global Infrastructure
+
+6. Understanding Different Types AWS Accounts and Users 
+
+7. Download, Install and Configure of Various tools, which are required for this entier Course
+
+
+VCS / SCM : Github.com  
+
+
