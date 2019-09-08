@@ -1,0 +1,144 @@
+Agenda : 7th Sep 2019
+
+1. Walkthrough of AWS Website
+
+2. Understanding of AWS Training And Certifications
+
+3. Course Introduction
+
+4. Account Creation with AWS
+
+5. Understanding of AWS Global Infrastructure
+
+6. Understanding Different Types AWS Accounts and Users 
+
+7. Download, Install and Configure of Various tools, which are required for this entier Course
+
+#----------------------------------------------------------------------# 
+Agenda : 8th Sep 2019
+
+1. Download, Install and Configure of Various tools, which are required for this entier Course
+
+
+1. IDE : ATOM, VISUAL STUDIO CODE or etc...
+2. SSH & Git related tools : gitbash 
+3. aws cli : https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+4. Github.com : 
+5. aws.amazon.com 
+
+
+
+1. Shared Responsibility Model : https://aws.amazon.com/compliance/shared-responsibility-model/
+
+2. Regions and AZ's(Data Centers) :https://aws.amazon.com/about-aws/global-infrastructure/
+
+3. Edge Locations : (https://aws.amazon.com/cloudfront/features/)
+
+179 Edge Locations
+11 Regional Edge Caches @72 cities across 33 countries 
+
+    1. Route53 (DNS)
+    2. CloudFront
+    3. AWS Shield
+    4. AWS WAF
+
+Services :
+
+1. Global : IAM, Route53
+
+2. Region : VPC, EC2
+
+22 - Regions : nvirginia
+
+18 == 18 Default VPC 
+
+
+    1. Default VPC :  
+        1. IGW
+        2. Subnets
+        3. RTB
+        4. NAT Gateway etc..
+    5-1 = 4 : VPC's Custom VPC 
+
+Region Based Service : EC2
+
+https://aws.amazon.com/ec2/features/
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
+
+
+What we can do ?
+
+Keshavs-MacBook-Pro:~ keshavkummari$ pwd
+/Users/keshavkummari
+Keshavs-MacBook-Pro:~ keshavkummari$ cd Downloads/
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ ls -lrt nvirginia_aws.pem 
+-rw-r--r--@ 1 keshavkummari  staff  1692 Sep  8 11:09 nvirginia_aws.pem
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ chmod 400 nvirginia_aws.pem 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ ls -lrt nvirginia_aws.pem 
+-r--------@ 1 keshavkummari  staff  1692 Sep  8 11:09 nvirginia_aws.pem
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ chmod 444 nvirginia_aws.pem 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ ls -lrt nvirginia_aws.pem 
+-r--r--r--@ 1 keshavkummari  staff  1692 Sep  8 11:09 nvirginia_aws.pem
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ chmod 400 nvirginia_aws.pem 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ ls -lrt nvirginia_aws.pem 
+-r--------@ 1 keshavkummari  staff  1692 Sep  8 11:09 nvirginia_aws.pem
+Keshavs-MacBook-Pro:Downloads keshavkummari$ 
+Keshavs-MacBook-Pro:Downloads keshavkummari$ git --version
+git version 2.22.0
+
+
+
+SYNOPSIS
+          aws configure [--profile profile-name]
+
+OPTIONS
+       None
+
+       See 'aws help' for descriptions of global parameters.
+
+AVAILABLE COMMANDS
+       o add-model
+
+       o get
+
+       o list
+
+       o set
+
+EXAMPLES
+       To create a new configuration:
+
+          $ aws configure
+          AWS Access Key ID [None]: accesskey
+          AWS Secret Access Key [None]: secretkey
+          Default region name [None]: us-west-2
+          Default output format [None]:
+
+       To update just the region name:
+
+          $ aws configure
+          AWS Access Key ID [****]:
+          AWS Secret Access Key [****]:
+          Default region name [us-west-1]: us-west-2
+          Default output format [None]:
+
+The formatting style for command output.
+
+       o json
+
+       o text
+
+       o table
+
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html
+
+https://aws.amazon.com/cli/

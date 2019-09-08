@@ -1,0 +1,15 @@
+
+
+1. Shared Responsibility Model : https://aws.amazon.com/compliance/shared-responsibility-model/
+
+2. Regions and AZ's(Data Centers) :https://aws.amazon.com/about-aws/global-infrastructure/
+
+3. Edge Locations : (https://aws.amazon.com/cloudfront/features/)
+
+179 Edge Locations
+11 Regional Edge Caches @72 cities across 33 countries 
+
+    1. Route53 (DNS)
+    2. CloudFront
+    3. AWS Shield
+    4. AWS WAF 
