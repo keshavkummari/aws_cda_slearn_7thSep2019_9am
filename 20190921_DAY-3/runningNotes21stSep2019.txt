@@ -1,0 +1,85 @@
+Agenda :
+Virtual Private Cloud- VPC	
+12.01	•       Overview of VPC	
+12.02	•       Types of Subnets and Security Groups.	
+12.03	•       Creating and usage of VPC Wizard.	
+12.04	•       Manually configuring a VPC.	
+12.05	•       QUIZ: Test your knowledge on Internet Gateway.	
+12.06	•       Elastic IP for an Instance while creating a VPC	
+12.07	•       Routing Table and Route Priority for VPC.	
+12.08	•       Compare NACL with Security Groups.	
+12.09	•       Flow Logs on IP traffic	
+12.10	•       QUIZ: Test your knowledge on Security Group.	
+12.11	•       Configure NAT Gateway configuration and Instance.	
+12.12	•       VPN Connections and VPC Limits.	
+12.13	•       VPC Peering for VPCs	
+12.14	•       Default VPC and its characteristics.
+
+12.15	                •       Practice Assignment: on Creating VPC.	
+12.16	                •       QUIZ: Test your knowledge of AWS VPC.	
+12.17	                •       AWS VPC Key Takeaways.	
+12.18	                •       Lab.
+
+Demo 1-Creating VPC
+Demo 2-Advance VPC Concepts
+Demo 2-VPC Peering
+
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+
+https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html
+
+
+AWS Types of Resources :
+
+    1. Global : IAM, Route53,
+    2. Region : VPC, EC2 
+
+    Part of AWS 22 Regions, We have access to 18 Regions --- 
+
+    1. NV     : VPC & EC2 
+    2. Mumbai : VPC & EC2
+
+Default_VPC : 
+1. Subnets
+2. Security Groups
+3. Network ACLs
+4. VPN Attachments
+5. Internet Gateways
+6. Route Tables
+7. Network Interfaces
+8. VPC Peering Connections
+
+NETFLIX : NV Region 
+
+AWS Account - 18 Regions & each region consist of Default_VPC i.e. 
+
+Custom VPC : 
+
+PRIME : NV Region
+
+Custom VPC : 
+
+
+The first four IP addresses and the last IP address in each subnet CIDR block are not available for you to use, and cannot be assigned to an instance. For example, in a subnet with CIDR block 10.0.0.0/24, the following five IP addresses are reserved:
+
+10.0.0.0: Network address.
+
+10.0.0.1: Reserved by AWS for the VPC router.
+
+10.0.0.2: Reserved by AWS. The IP address of the DNS server is always the base of the VPC network range plus two; however, we also reserve the base of each subnet range plus two. For VPCs with multiple CIDR blocks, the IP address of the DNS server is located in the primary CIDR. For more information, see Amazon DNS Server.
+
+10.0.0.3: Reserved by AWS for future use.
+
+10.0.0.255: Network broadcast address. We do not support broadcast in a VPC, therefore we reserve this address.
+
+
+
