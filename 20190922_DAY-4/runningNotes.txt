@@ -1,0 +1,146 @@
+
+Agenda :
+
+1. VPC Peering (Pending)
+
+
+9.01	•       AWS  CloudFormation Features and Template.		
+9.02	•       AWS Cloud Formation Stacks and how to work with them.	
+9.03	•       QUIZ: Test your knowledge on Cloud Formation Features and Template	
+9.04	•       Elastic Beanstalk overview and its Core Components	
+9.05	•       Elastic Beanstalk Architecture and supporting Platforms.	
+9.06	•       Manage Beanstalk Environments.	
+9.07	•       QUIZ: Test your knowledge on Elastic Beanstalk	
+9.08	•       Manage Lambda Environments and its features.	
+9.09	•       QUIZ: Test your knowledge on Lambda	
+9.1	    •        Overview of Kinesis and Kinesis Client Library	
+9.11	•       Cloud Formation, Lambda and Kinesis Key Takeaways	
+9.12	•       QUIZ: Test your knowledge on Lambda	 
+9.13	
+                •       Practice Assignment: Cloud Formation Stacks  
+
+9.14	
+                • QUIZ: Test your knowledge of Management Tools, Cloud
+                      Formation, Beanstalk Lambda and Kinesis.
+ 
+9.15	        •       Lab
+
+Day 7
+
+Demo 1-AWS CloudFormation Setup and Usage
+Demo 2-AWS Beanstalk Setup and Usage
+Demo 3-AWS Lambda Setup and Usage
+
+
+3.01	•     Overview of Elastic Cloud Computing		
+3.02	•       Identify EC2 benefits and related terminology	
+3.03	•       EC2 Instance Types and resource Usage	
+3.04	•       EC3 Instance types, families and purchasing options	
+3.05	•       Difference between Root Volume in Instance Store and EBS	
+3.06	•       Quiz: test your knowledge of EC2 and EBS	
+3.07	•      Overview  of Amazon Machine Images	
+3.08	•       Identify the flow of an Instance Lifecycle	
+3.09	•       Instance Store/EBS  as Root Volume Types	
+3.10	•       Definition of  Amazon EFS	
+3.11	•       Quiz: test your knowledge of EBS and AMI	
+3.12	•       Create IAM Roles with ECS	
+3.13	•       Various  Security groups	
+3.14	•      Meta Data and User Data in EC2	 
+3.15	•      Overview of  Placement groups	 
+3.16	•      Elastic Load Balancer and Auto Scaling in EC2	 
+3.17	•       Quiz: test your knowledge of ELB, Meta data	 
+3.18	                •       Practice Assignment for EC2	 
+3.19	                •       QUIZ: Test your knowledge of EC2 instance types	 
+3.20	                •       EC2 Key Takeaways	 
+190	3.21	            •       Lab
+
+Day 2 : 
+Demo 1-Launch Linux and Windows EC2 instance
+Demo 2-Connect EC2 instance, Install and Test Webserver
+Demo 3-Setup LoadBalancer and AutoScaling
+
+
+4.01	•       Basic Concept and Overview of Simple Storage Service (S3)	
+4.02	•       S3 Buckets and Identify different storage classes in S3  	
+4.03	•       S3  Data Consistency Model	
+4.04	•       Quiz: test your knowledge on S3 bucket and storage	
+4.05	•     Overview of Version Control and Lifecycle Management	
+4.06	•       Definition and creating  Buckets, ACLs and User Policies	
+4.07	•       Quiz: test your knowledge on S3 Policies	
+4.08	•       Host an static website on S3	
+4.09	•       Work with Cross Origin Resource Sharing	
+4.1	•       Describe Cloud Front integrates with S3	
+4.11	•       S3 Transfer Acceleration and Performance Optimization	
+4.12	•       Quiz: test your knowledge on website on S3	Demo 1-Create and access an Amazon S3 Bucket 
+4.13	                •       Practice Assignment for S3	Demo 2-Amazon S3 Version Control and  Lifecycle Management 
+4.14	                •   Quiz: Test your S3 knowledge	Demo 3-Amazon S3 Static Website Hosting and CloudFront 
+4.15	                •      S3 Key Takeaways	 
+4.16	                •       Lab
+
+
+1. S3 Bucket  - WebSite Contet 
+2. SSL Certificate (ACM)
+3. CloudFront Distribution
+4. Route53 (cloudfront DNS --->  ckk.cloud )
+
+
+
+
+
+Elastic Load Balancers :
+
+1. App ELB     : OSI Layer 7 (Layer-7)
+2. Network ELB : OSI Layer 7 (Layer-4)
+3. Classic ELB 
+
+
+
+User -->> ckk.cloud ---> Godaddy.com (NS) - AWS 4 --- 1 ----- A record ---> EC2 or ELB 
+
+
+Java Application Code : devops-1.1.0-SNAPSHOT.war 
+
+OS : Amazon Linux | Windows 
+
+Java 1.8 : 
+
+Application Server : Apache Tomcat or or WebLogic or WebShpere or Jboss  | IIS or WebLogic or WebShpere or Jboss 
+
+Code Deploy devops-1.1.0-SNAPSHOT.war
+
+Open Browser and valdiate 
+
+
+S3 Simple Storage Service @ Global and Buckets are Region Based 
+
+Bucket / Folder : 
+
+Object Based Storage : 
+
+Bucket Names are uniq and global : 
+
+keshavkummari 
+keshavkummari01
+keshav.kummari 
+keshav-kummari 
+
+Invalid : 
+
+keshav_kummari
+KeshavKummari
+
+
+
+
+CloudFormation Template :
+
+Stack :
+
+1. dev.ckk.cloud :
+
+2. tst.ckk.cloud :
+
+3. acc.ckk.cloud :
+
+4. prod.ckk.cloud (ckk.cloud) :
+
