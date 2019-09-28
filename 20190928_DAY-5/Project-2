@@ -1,0 +1,21 @@
+                                                                 Project 2
+
+Scenario: Create two Amazon S3 Buckets in Mumbai region. 
+Bucket Names will be “testoct28” and “testoct28log”. 
+After creating both the buckets, 
+upload any sample file to the bucket “testoct28”. 
+Then enable Logging in for the bucket “testoct28”. 
+Ensure that log is saved in the bucket name “testoct28log”; 
+also enable the versioning in the bucket “testoct28”. 
+Then Enable the Transfer Acceleration in the Bucket “testoct28”.
+
+Actions that need to be done:
+>Create an Amazon S3 Bucket Name "testoct28" in Mumbai Region
+>Create an Amazon S3 Bucket Name "testoct28log" in Mumbai Region
+>Upload sample file to testoct28 bucket
+>Enable Logging in for bucket "testoct28"
+>Log should be saved in bucket "testoct28log"
+>Enable Versioning in the bucket "testoct28"
+>Enable Transfer Acceleration in bucket "testoct28"
+
+

@@ -1,0 +1,13 @@
+
+Project-3 : Create the Amazon Dynamo DB Table,Add Items in to Table,Query it,Delete the table
+
+STEP-1 : Create DynamoDB Table 
+
+
+STEP-2 : Add Items to DynamoDB Table 
+
+
+STEP-3 : Query Table 
+
+
+STEP-4 : Delete the Table 

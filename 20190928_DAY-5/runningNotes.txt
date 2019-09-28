@@ -1,0 +1,73 @@
+Agenda : 
+
+1. Database
+2. DynamoDB
+3. VPC Peering
+4. Developer Tools 
+
+
+1. Database :
+
+DB instance Name : bigdata
+UserName : admin 
+Password : bigdata_aws
+
+3. VPC Peering :
+
+1. Default_VPC
+2. Custom_VPC 
+
+4. Developer Tools
+CodeStar
+CodeCommit
+CodeBuild
+CodeDeploy
+CodePipeline
+Cloud9
+X-Ray
+
+
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/JavaProject01
+
+User name developer-at-126211257110
+Password p17t2vv9DaX2A+UkGZ8RPNG0J/uM76Na1ooQnKSf7ug=
+
+https://aws.amazon.com/products/developer-tools/
+
+AWS-Certified-Developer-Associate-Updated-June-2018-Exam-Guide-v1.3.pdf
+
+https://aws.amazon.com/certification/certified-developer-associate/
+
+https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_Certified_Developer_Associate-Exam_Guide_EN_1.4.pdf
+
+https://aws.amazon.com/certification/faqs/
+
+
+
+
+
+User-A --- Browser https://keshavkummari.com ---> Global DNS(File i.e. .com ) --- Godaddy.com --> 
+keshavkummari ----> 4.10.20.30 ---> NameServers (AWS -4 ) -----> ns-843.awsdns-41.net ---> Route53--->Hosted Zone
+
+keshavkummari.com 
+
+NS  4 
+SOA 
+A   ----> CloudFront or ElasticBeanstack or EC2 or Elastic Load Balancers etc ...
+
+
+
+Global DNS Servers :
+
+Text Files :
+
+<filename>.com
+
+keshavkummari ----> 4.10.20.30  (Godaddy Domain Name and Ipaddress)
+
+<filename>.org
+<filename>.in
+<filename>.co.in
+<filename>.io 
+
+

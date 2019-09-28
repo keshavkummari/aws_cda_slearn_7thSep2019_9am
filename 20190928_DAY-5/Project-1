@@ -1,0 +1,18 @@
+                                                                    Project 1
+Scenario : Create Amazon Dynamo DB Table using default table setting. The table name must be “Student” and the Partition key must be “rollno” – Number Type. Add these items in the table “Student.”
+
+Rollno(Number) Name(String)
+20     Amit
+30     Anil
+40      Aman  
+Query the rollnumber 20 and Delete the Amazon Dynamo DB Table “Student.”
+
+Actions that need to be done
+>Create table “Student” with Partition Key “rollno” and default table settings
+>Add item rollno 20 and Name Amit
+>Add item rollno 30 and Name Anil
+>Add item rollno 40 and Name Aman
+>Query rollno 20 data
+>Delete the Amazon Dynamo DB Table “Student”
+
+
