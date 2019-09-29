@@ -1,0 +1,18 @@
+
+Agenda :
+
+1. Lambda
+2. API Gateway
+3. AWS SDK Boto3 
+4. Route53 
+5. Additional Topics
+6. Microservices 
+
+
+
+https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-features.html
+
+https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-features.html
+
+https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-as-simple-proxy-for-lambda.html
+

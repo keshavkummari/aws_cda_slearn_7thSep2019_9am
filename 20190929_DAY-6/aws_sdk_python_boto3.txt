@@ -1,0 +1,22 @@
+
+AWS Cloud :
+
+1. Browser - AWS Management Console
+
+2. CLI : 
+    python --version
+    pip --version
+    pip install awscli 
+
+    aws configure 
+    AcessKey ID :
+    SecreatAKey :
+    Region : 
+    OutputFormat : 
+
+# aws ec2 describe-instances 
+
+https://aws.amazon.com/sdk-for-python/
+
+https://docs.aws.amazon.com/code-samples/latest/catalog/python-ec2-create_instance.py.html
+

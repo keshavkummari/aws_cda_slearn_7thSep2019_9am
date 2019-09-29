@@ -1,0 +1,41 @@
+
+
+#!/bin/bash
+cd /opt/
+yum install wget* curl* vim* unzip* -y
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "Welcome to Mumbai-Server" >> /var/www/html/index.html
+
+#!/bin/bash
+cd /opt/
+yum install wget* curl* vim* unzip* -y
+yum update -y
+yum install http* --skip-broken -y
+service httpd start
+chkconfig httpd on
+echo "Welcome to N.Virginia-Server" >> /var/www/html/index.html
+
+
+<html>
+<head><title>Mumbai</title></head>
+<body bgcolor="olive">
+
+    <h1>Welcome To Mumbai Server</h1>
+
+</body>
+</html>
+
+
+<html>
+<head><title>US-NV</title></head>
+<body bgcolor="blue">
+
+    <h1>Welcome To Nvirginia</h1>
+
+</body>
+</html>
+
+
